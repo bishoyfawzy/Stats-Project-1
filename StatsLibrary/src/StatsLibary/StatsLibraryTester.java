@@ -7,7 +7,6 @@ public class StatsLibraryTester {
     private static double[] data = { 1.2, 2.5, 3.6, 2.5, 4.8, 3.6 };
     
     public static void main(String[] args) {
-        // Invoking all the test methods
         testStatistics();
     }
 
