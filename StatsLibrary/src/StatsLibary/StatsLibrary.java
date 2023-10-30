@@ -176,17 +176,6 @@ public class StatsLibrary {
         return Arrays.copyOf(result, index);
     }
 
-    // Method to calculate the complement of a set
-//    public static int[] complement(int[] universalSet, int[] set) {
-//        int[] result = new int[universalSet.length - set.length];
-//        int index = 0;
-//        for (int num : universalSet) {
-//            if (!contains(set, num)) {
-//                result[index++] = num;
-//            }
-//        }
-//        return Arrays.copyOf(result, index);
-//    }
     
     public static int[] complement(int[] set, int[] universalSet) {
         List<Integer> setResult = Arrays.stream(universalSet)
@@ -232,7 +221,7 @@ public class StatsLibrary {
         // Remove all elements in list2 from list1
         list1.removeAll(list2);
 
-        // Convert the list back to an array and return
+        // Convert the list back to an array 
         return list1.stream().mapToInt(i -> i).toArray();
     }
 
