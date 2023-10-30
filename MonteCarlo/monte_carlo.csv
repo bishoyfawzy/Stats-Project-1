@@ -1,0 +1,9 @@
+Poker Hand,Probability
+Pair,0.4835
+Three of a Kind,0.0242
+Four of a Kind,1.00E-04
+Straight,0.003
+Flush,0.002
+Full House,0.0014
+Straight Flush,0
+Royal Flush,0
